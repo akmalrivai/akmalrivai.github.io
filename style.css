@@ -1,26 +1,59 @@
+.container {
+    min-height: 100%;
+    position: relative;
+}
+
+
 .nav-link:hover {
-    border-bottom: 2px solid darkblue;
+    border-bottom: 2px solid rgb(67, 67, 243);
+    margin-top: 1px;
+    margin-bottom: 2px;
 }
 .pasfoto {
     max-width: 200px;
     border-radius: 15px;
+    margin-top: 30px;
 }
 .jumbotron {
-    background-image: url();
+    background-image: url(/img/blue.png);
 }
 .jumbotron h1 {
-    margin-top: 70px;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
+
+.nama {
+    color: rgb(255, 255, 255);
+}
+
+.fototentang {
+    max-width: 270px;
+}
+
+.keterangan {
+    font-size: medium;
+    text-align: justify;
+}
+
 .tombol {
     border-radius: 20px;
 }
 .judul {
-    margin-top: 65px;
+    margin-top: 75px;
     text-align: center;
 }
 .baris {
     margin-top: 30px;
-    margin-bottom: 300px;
+    margin-bottom: 350px;
+}
+
+.gambarskills {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.fotoprogram {
+    max-width: 60%;
 }
 
 .medsos {
@@ -34,10 +67,10 @@
 
 footer {
     width: 100%;
-    height: 35px;
-    background-color: rgb(221, 218, 218);
+    height: 50px;
     position: relative;
     bottom: 0;
-    text-align: center;
     margin-top: 50px;
+    line-height: 50px;
+    
 }

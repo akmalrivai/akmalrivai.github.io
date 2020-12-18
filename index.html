@@ -5,58 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Akmal Rivai</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
+    
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+            <a class="navbar-brand" href="#" >Akmal Portfolio</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link active" href="#about">Features</a>
-                <a class="nav-item nav-link active" href="#">Pricing</a>
-                <a class="nav-item nav-link active" href="#">Disabled</a>
-              </div>
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link active" href="#">Beranda <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="#about">Tentang Saya</a>
+                    <a class="nav-item nav-link active" href="#Experience">Pengalaman</a>
+                    <a class="nav-item nav-link active" href="#Skills">Kemampuan</a>
+                    <a class="nav-item nav-link active" href="#Portfolio">Portfolio</a>
+                    <a class="nav-item nav-link active" href="#Kontak">Kontak</a>
+                </div>
             </div>
         </div>
-          </nav>
-        <section class="jumbotron">
+    </nav>
+
             <div class="jumbotron jumbotron-fluid text-center">
                 <div class="container">
                     <img class="pasfoto" src="/img/3x4.JPG" alt="Pas Foto">
-              <h1>Akmal Rivai</h1>
-              <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-              <a href="" class="tombol btn btn-primary"> Download CV </a>
+              <h1 class="nama">Akmal Rivai</h1>
+              <a href="/file/CV Akmal Rivai.pdf" class="tombol btn btn-primary"> Download CV </a>
             </div>
         </div>
-    </section>
-    <section>
+    
+    <section class="about">
         <div class="container text-center">
-            <h1 class="judul" id="about"> About Me </h1>
+            <h1 class="judul" id="about"> Tentang Saya </h1>
             <div class="baris row">
-                <div class="col-md-6">
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quasi pariatur nam voluptates possimus ducimus, eos odio, laudantium magnam cumque eaque ipsum provident tenetur deleniti. Labore sapiente alias veniam. Suscipit.</p>
+                <div class="col-md-8">
+                    <p class="keterangan"> Nama saya adalah Akmal Rivai, saya adalah seorang fresh graduate jurusan informatika dari Universitas Indraprasta PGRI. Saya lulus pada bulan Agustus 2020 dengan IPK 3.23. Usia saya 23 tahun. Saat ini saya sedang aktif mencari pekerjaan.</p>
+                    <p class="keterangan"> Saya memiliki minat dibidang Web Development. Saya dapat membuat website menggunakan HTML, CSS, Bootsrap4, JavaScript, MySQL, PHP, Laravel, dan Git. Saya juga dapat membuat tampilan website yang responsif. Selain itu saya adalah orang yang bertanggung jawab, jujur dan mampu bekerja sama ataupun individu dengan baik. </p>
                 </div>  
-                <div class="col-md-6">
-                    <img src="/img/3x4.JPG" alt="">
+                <div class="col-md-4">
+                    <img class="fototentang" src="/img/akmal1.jpg" alt="Akmal Rivai">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="about">
+    <section class="Experience">
         <div class="container text-center">
-            <h1 class="judul"> Experience </h1>
+            <h1 class="judul" id="Experience"> Pengalaman </h1>
             <div class="baris row">
                 <div class="col-md-6">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, cum. Odio sequi eum eveniet. Dolores ab veniam voluptas aut aliquid dicta, a, fugit accusantium sequi eligendi necessitatibus debitis consectetur expedita.</p>
+                    <h3 class="keterangan">Magang | Januari-Maret 2020</h3>
+                    <h3 class="keterangan">SMP Sandikta Bekasi</h3>
+                    <p class="keterangan">
+                        Tugas saya selama magang di SMP Sandikta Bekasi adalah :
+                      <ul class="keterangan">
+                          <li>Membuat aplikasi pendataan nilai siswa berbasis desktop menggunakan bahasa pemrograman java dengan editor Netbeans IDE dan DBMS MySQL</li>
+                          <li>Melaporkan perubahan dan perkembangan pembuatan aplikasi beserta laporannya</li>
+                      </ul>  
+                    </p>
                 </div>
                 <div class="col-md-6">
-                    <img src="/img/3x4.JPG" alt="">
+                    <img src="/img/sandikta.jpg" alt="">
                 </div>
             </div>
         </section>
@@ -64,23 +75,82 @@
         <section class="skills">
         </div>
         <div class="container text-center">
-            <h1 class="judul">Skills</h1>
-            <div class="baris row">
+            <h1 class="judul" id="Skills">Kemampuan</h1>
+            <div class="gambarskills row">
                 <div class="col-md-4">
                     <img src="/img/html.png" alt="">
+                    <h4>HTML</h4>
+                </div>
+                <div class="col-md-4">
+                    <img src="/img/css.png" alt="">
+                    <h4>CSS</h4>
+                </div>
+                <div class="col-md-4">
+                    <img src="/img/js.png" alt="">
+                    <h4>JavaScript</h4>
                 </div>
             </div>
+                
+                <div class="gambarskills row">
+                    <div class="col-md-4">
+                        <img src="/img/mysql.png" alt="">
+                        <h4>MySQL</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/img/bootstrap.png" alt="">
+                        <h4>Bootstrap</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/img/php.png" alt="">
+                        <h4>PHP</h4>
+                    </div>
+                </div>
+
+                <div class="baris row">
+                    <div class="col-md-4">
+                        <img src="/img/laravel.png" alt="">
+                        <h4>Laravel</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/img/java.png" alt="">
+                        <h4>Java</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/img/git.png" alt="">
+                        <h4>GIT</h4>
+                    </div>
+                </div>
         </div>
     </section>
 
     <section class="portfolio">
         <div class="container text-center">
-            <h1 class="judul"> Portfolio </h1>
+            <h1 class="judul" id="Portfolio"> Portfolio </h1>
             <div class="baris row ">
                 <div class="col-md">
-                    <img src="/img/menu.PNG" alt="">
-                    <h3>Aplikasi</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis dolor harum saepe sit, rem ipsa laboriosam eius porro explicabo, totam magni inventore, quaerat minus praesentium temporibus excepturi esse. Consequatur, a!</p>
+                    <img class="fotoprogram" src="/img/ancol.PNG" alt="">
+                    <br><br>
+                    <p> Website sekilas ancol, dimana informasi tentang tempat wisata tersebut tercantum di dalam website ini. Website ini dibuat dengan menggunakan HTML, CSS, dan JavaScript. Tampilan website ini sudah responsif dan clean di berbagai device.</p>
+                    <br><br>
+                <div class="col-md">
+                    <img class="fotoprogram" src="/img/movie.PNG" alt="">
+                    <br><br>
+                    <p> Website streaming movie. Website untuk menonton film yang mudah untuk di akses nantinya dan dapat menonton film yang sedang trend. Website ini dibuat dengan menggunakan HTML, CSS, JavaScript dan PHP sederhana (localhost). Tampilan website ini sudah responsif dan clean di berbagai device.</p>
+                    <br><br>
+                <div class="col-md">
+                    <img class="fotoprogram" src="/img/dashboard.PNG" alt="">
+                    <br><br>
+                    <p>Ini adalah tampilan admin (back end) dari website streaming movie. Aplikasi ini dibuat dengan bahasa PHP dan DBMS MySQL.</p>
+                    <br><br>
+                <div class="col-md">
+                    <img class="fotoprogram" src="/img/toko.PNG" alt="">
+                    <br><br>
+                    <p> Ini adalah halaman admin dari webiste aplikasi toko sport centre yang dibuat menggunakan laravel. Pada Aplikasi ini terdapat fitur CRUD sederhana.</p>
+                    <br><br>
+                <div class="col-md">
+                    <img class="fotoprogram" src="/img/menu.PNG" alt="">
+                    <br><br>
+                    <p> Aplikasi pemesanan catering berbasis desktop dengan bahasa pemrograman java dan DBMS MySQL.</p>
                 </div>
             </div>
         </div>
@@ -88,7 +158,7 @@
 
     <section class="contact">
        <div class="container">
-           <h1 class="judul">Kontak</h1>
+           <h1 class="judul" id="Kontak">Kontak</h1>
             <div class="card border-dark mb-3 mx-auto" style="max-width: 500px;">
                 <div class="card-body text-dark">
                     <div class="row">
@@ -96,7 +166,7 @@
                             <img class="gambarkontak" src="/img/gmail.png" alt="" style="width: 70px;">
                         </div>
                         <div class="col-md-8">
-                            <p class="medsos card-text text-right">Some quick example text to </p>
+                            <p class="medsos card-text text-right">akmalrivai29@gmail.com</p>
                         </div>    
                     </div>
                     <div class="row">
@@ -104,7 +174,7 @@
                             <img class="gambarkontak" src="/img/whatsapp.png" alt="" style="width: 70px;">
                         </div>
                         <div class="col-md-8">
-                            <p class="medsos card-text text-right">Some quick example text to </p>
+                            <p class="medsos card-text text-right">+62 858 8993 1500</p>
                         </div>
                     </div>
                     <div class="row">
@@ -120,7 +190,7 @@
                             <img class="gambarkontak" src="/img/instagram.png" alt="" style="width: 70px;">
                         </div>
                         <div class="col-md-8">
-                            <p class="medsos card-text text-right"><a href="https://www.instagram.com/akmalRV/">AkmalRV</a></p>
+                            <p class="medsos card-text text-right"><a href="https://www.instagram.com/akmalRV/">akmalRV</a></p>
                         </div>
                     </div>
                 </div>
@@ -128,9 +198,35 @@
        </div> 
     </section>
 
-    <footer><p>Copyright 2020 <a href="">Akmal Rivai</a>All Right Reserved</p>
+    <footer class="bg-dark text-white">
+        <div class="container text-center ">
+            <p>© 2020 All rights reserved | Design by <a href="">Akmal Rivai</a></p>
+        </div>
     </footer>
     
+    <script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+	
+	</script>/
+<!-- //here ends scrolling icon -->
+
+<script src="js/jarallax.js"></script>
+    <script src="js/SmoothScroll.min.js"></script>
+    <script type="text/javascript">
+		/* init Jarallax */
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		})
+    </script>
+    
+    <script src="js/modernizr.custom.js"></script>
+
+<script src="js/modernizr.custom.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
